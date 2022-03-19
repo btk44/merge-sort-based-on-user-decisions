@@ -16,6 +16,14 @@ const dataItems = [
     // { id: 15, description: '16', src: 'css/product.svg' },
 ];
 
+/*
+    to do
+    - split files
+    - create api service
+    - numbers images
+    - change input data
+*/
+
 class Item {
     constructor(data){
         [this.id, this.description, this.imgUrl] = [data.id, data.description, data.src];
