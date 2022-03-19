@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+main {
+    min-width: 250px;
+    max-width: 900px;
+    padding: 20px;
+    margin:auto;
+}
+
+main section {
+    margin: 5px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+    padding: 1em;
+    border-radius: 6px;
+}
+
+main section h2 {
+    font-size: 1.1em;
+    margin-top: 0.2em;
+    margin-bottom: 0.67em;
+    text-align: center;
+}
+
+main section p {
+    font-size: 0.8em;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+main section button {
+    font-size: 0.8em;
+    background-color: white;
+    padding: 0.8em;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+main section button:hover {
+    background-color: rgba(0,0,0,0.15);
+}
+
+main section button:active {
+    background-color: rgba(0,0,0,0.5);
+}
+
+main section div {
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+main section div a {
+    position: relative;
+    padding: 6%;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+main section div a:hover {
+    background-color: rgba(0,0,0,0.15);
+}
+
+main section div a:active {
+    background-color: rgba(0,0,0,0.5);
+}
+
+main section div span {
+    border-top: 1px dashed gray;
+    padding-top: 14px;
+    margin-top: 14px;
+}
+
+main section div a * {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+main section ul {
+    list-style: none;
+    padding: 0;
+    vertical-align: top;
+}
+
+main section ul li {
+    font-size: 1em;
+    background-color: white;
+    padding: 1em;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+    border-radius: 6px;
+    margin-bottom: 3px;
+}
+
+main section ul li span {
+    margin: 0 5px;
+}
+
+@media (min-width: 880px) {
+    main section ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+}
